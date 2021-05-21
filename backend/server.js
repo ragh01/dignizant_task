@@ -40,6 +40,7 @@ app.post('/signup',(req,res) =>{
     })
 });
 
+
 app.post('/login', async (req, res) => {
     try {
         const email = req.body.email;
